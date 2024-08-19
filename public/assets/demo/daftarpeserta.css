@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.body {
+    display: flex;
+}
+
+/* Navbar */
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group .form-control {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.btn5,
+.btn6 {
+    background-color: transparent;
+    color: #000000;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn5 a,
+.btn6 a {
+    color: inherit; /* Mengambil warna teks dari orang tuanya */
+    text-decoration: none;
+}
+
+.btn5:hover,
+.btn6:hover {
+    background-color: #f0f0f0; /* Warna latar belakang saat dihover */
+}
+
+.navbar-brand img {
+    width: 190px;
+    height: 60px;
+}
+/* Close Navbar */
+
+.container h2 {
+    text-align: center;
+    margin: 30px;
+    font-family: "Inria Sans";
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.container h3 {
+    margin-top: 3rem;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    color: #6c6c6c;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+/* Tombol Back */
+.back {
+    background-color: transparent;
+    border: none;
+    float: left;
+}
+
+.back:hover {
+    cursor: pointer;
+}
+/* Close */
+
+.form-group {
+    margin-left: 25px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 200px; /* Sesuaikan lebar input sesuai kebutuhan */
+    padding: 5px;
+}
+
+.magang {
+    width: 25rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid;
+}
+
+.tanggal {
+    height: 2.5rem;
+    width: 38rem;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.unit {
+    height: 2.5rem;
+    width: 25rem;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.unit1 {
+    height: 2.5rem;
+    width: 25rem;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.freetext {
+    width: 400px;
+    height: 150px;
+}
+
+.file {
+    height: 2.5rem;
+    width: 25rem;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.instansi {
+    height: 2.5rem;
+    width: 25rem;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.submit {
+    width: 125px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: 50px;
+    font-weight: bold;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: #569aff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.cancel {
+    width: 125px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 50px;
+    font-weight: bold;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    float: right;
+}
+
+.submit,
+.cancel {
+    margin-bottom: 20px;
+}
+
+.submit:hover,
+.cancel:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-group {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .container h3 {
+        margin-left: auto;
+    }
+
+    /* Gaya untuk tombol Submit dan Cancel pada mode ponsel */
+    .submit,
+    .cancel {
+        width: 210px; /* Dua tombol dapat muat dalam satu baris pada mode ponsel */
+        margin-right: 10px; /* Memberikan sedikit margin antara dua tombol */
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,591 @@
+/* Navbar */
+.input-group {
+    display: flex;
+    align-items: center;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    background-color: #eceff1;
+    padding: 0; /* Tambahkan padding agar konten footer tidak menempel langsung ke pinggir layar */
+    left: 0; /* Pastikan footer berada di kiri layar */
+    z-index: 1000; /* Pastikan footer tampil di atas konten lainnya */
+}
+.bg-green-pastel {
+    background-color: #d0f0c0; /* Warna hijau pastel */
+}
+
+.footer-container {
+    padding-top: 5rem; /* Menambahkan ruang atas agar konten footer tidak menempel langsung di bagian bawah halaman */
+}
+
+@media (max-width: 767px) {
+    .footer {
+        position: relative; /* Mengembalikan footer ke posisi relatif pada perangkat dengan lebar kurang dari 767px */
+    }
+}
+
+.input-group .form-control {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+/* Teks bergerak */
+@keyframes moveLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.moving-container {
+    overflow: hidden; /* Menyembunyikan konten di luar kotak */
+    width: 1290px; /* Lebar kontainer sesuai kebutuhan */
+    align-items: center;
+    margin-left: 7rem;
+}
+
+/* Animasi teks */
+.moving-text {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: moveLeft 15s linear infinite; /* Ubah durasi dan jenis animasi sesuai kebutuhan */
+}
+
+.btn5,
+.btn6 {
+    background-color: transparent;
+    color: #000000;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn5 a,
+.btn6 a {
+    color: inherit; /* Mengambil warna teks dari orang tuanya */
+    text-decoration: none;
+}
+
+.btn5:hover,
+.btn6:hover {
+    background-color: #f0f0f0; /* Warna latar belakang saat dihover */
+}
+
+/* dropdown navbar */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    background-color: white;
+    position: absolute;
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
+/* Close Navbar Dropdown */
+/* Close Navbar */
+
+.navbar-brand img {
+    width: 190px;
+    height: 60px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Untuk membuat konten berada di seluruh tinggi viewport */
+}
+
+.row {
+    display: flex;
+}
+
+.col-md-4,
+.col-md-8 {
+    align-self: center; /* Menyesuaikan posisi vertikal */
+}
+
+.custom-button {
+    background-color: #4caf50; /* Warna hijau */
+    color: #ffffff; /* Warna putih */
+    border-radius: 10%; /* Border radius 20% */
+    margin: 5px; /* Margin 5 */
+    margin-right: 5px;
+    font-weight: 600;
+    padding: 10px 15px; /* Padding sesuai kebutuhan */
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    display: inline-block;
+}
+
+.custom-button:hover {
+    background-color: #45a049; /* Warna hijau saat hover */
+}
+.content {
+    margin-top: 100px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    align-items: center;
+    margin-top: -3.9rem;
+}
+/* Custom CSS to style the carousel */
+#custom-carousel {
+    max-width: 100%; /* Set the maximum width of the carousel */
+    height: 30%;
+    margin: auto; /* Center the carousel */
+    border: 20px;
+}
+
+/* Close Carousel */
+.posisi,
+.card-body {
+    width: 100%;
+}
+.cardii {
+    width: calc(100.33% - 15px); /* 33.33% untuk 3 kolom dengan 15px padding */
+    height: 202px;
+    background-color: white;
+    margin: 10px 15px 20px 0; /* Sesuaikan margin sesuai kebutuhan */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 0.1px solid #000;
+    margin-left: 9.8rem;
+}
+
+.col-md-3 a {
+    text-decoration: none; /* Menghilangkan garis bawah */
+    color: inherit; /* Mengambil warna teks dari warisan */
+}
+
+.col-md-3 a:hover {
+    text-decoration: none; /* Tetap tidak menampilkan garis bawah saat tombol dihover */
+}
+
+.col-md-3 {
+    margin-right: 10px;
+}
+
+.image p {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0 20px 20px;
+    color: red;
+}
+
+.text p {
+    font-size: 16px;
+    color: black;
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.text h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    margin-top: -90px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+.text h4 {
+    font-size: 18px;
+    color: black;
+    margin-top: -30px;
+    margin-left: 20px;
+    text-align: left;
+}
+.vidio {
+    background-color: #ffffff;
+    margin-top: 10px;
+    width: 100%x; /* Sesuaikan lebar sesuai kebutuhan Anda */
+    margin-bottom: 20px;
+}
+/* Button */
+.mandiri,
+.penelitian,
+.posting {
+    width: 350px;
+    height: 220px;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: underline;
+}
+.mandiri {
+    background-color: #007bff;
+}
+
+.penelitian {
+    background-color: #bac964;
+}
+
+.posting {
+    background-color: #438a5e;
+}
+.carosel {
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.mandiri:hover {
+    background-color: #0056b3; /* Warna ketika cursor di atas tombol */
+}
+
+.penelitian:hover {
+    background-color: #facf5a; /* Warna ketika cursor di atas tombol */
+}
+
+.posting:hover {
+    background-color: #00818a; /* Warna ketika cursor di atas tombol */
+}
+
+.inti {
+    background-color: #91c8e4;
+}
+.posisi {
+    background-color: #ffffff;
+    margin-top: 10px;
+    width: 100%x; /* Sesuaikan lebar sesuai kebutuhan Anda */
+    margin-bottom: 20px;
+}
+.posisi h1 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.vidio h1 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.vidio h2 {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: -10px; /* Menambahkan margin left 10px */
+    align-items: center; /* Opsi ini menengahkan vertikalnya jika diperlukan */
+    padding-right: 30px;
+}
+
+.tim-row {
+    margin-bottom: 20px;
+}
+
+.tim-white-buttons {
+    background-color: #777777;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.typography-line {
+    padding-left: 25%;
+    margin-bottom: 35px;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.typography-line span {
+    bottom: 10px;
+    color: #c0c1c2;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    left: 0;
+    position: absolute;
+    width: 260px;
+    text-transform: none;
+}
+
+.tim-row {
+    padding-top: 60px;
+}
+
+.tim-row h3 {
+    margin-top: 0;
+}
+
+.offline-doc .page-header {
+    display: flex;
+    align-items: center;
+}
+
+.offline-doc .footer {
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    bottom: 0;
+    color: #fff;
+    z-index: 1;
+}
+
+@media all and (min-width: 992px) {
+    .sidebar .nav > li.active-pro {
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+    }
+}
+
+@media all and (max-width: 502px) {
+    .sidebar .nav > li.active-pro {
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+    }
+}
+
+.card.card-upgrade .card-category {
+    max-width: 530px;
+    margin: 0 auto;
+}
+
+/* Nucleo Style */
+
+.demo-iconshtml {
+    font-size: 62.5%;
+}
+
+.demo-icons body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    color: #333333;
+    background: white;
+}
+
+.demo-icons a {
+    color: #608cee;
+    text-decoration: none;
+}
+
+.demo-icons header {
+    text-align: center;
+    padding: 100px 0 0;
+}
+
+.demo-icons header h1 {
+    font-size: 2.8rem;
+}
+
+.demo-icons header p {
+    font-size: 1.4rem;
+    margin-top: 1em;
+}
+
+.demo-icons header a:hover {
+    text-decoration: underline;
+}
+
+.demo-icons .nc-icon {
+    font-size: 34px;
+}
+
+.demo-icons section h2 {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 0 0 1em 0.2em;
+    margin-bottom: 1rem;
+}
+.sidebar-wrapper {
+    background-color: #4ad57f;
+}
+.btn3 {
+    background-color: #3da355; /* Warna hijau */
+    color: #fff;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+}
+.btn5 {
+    background-color: transparent;
+    color: #000000;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+.btn6 {
+    background-color: transparent;
+    color: #000000;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+.btn2 a {
+    color: white;
+}
+.wrapper,
+.sidebar,
+.logo,
+.simple-text,
+.logo-medium {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.sidebar li {
+    background-color: #436f8a;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    right: 0;
+    margin-left: 20px;
+    transition: background-color 0.3s, color 0.3s; /* Efek transisi untuk animasi */
+}
+
+.sidebar li.active {
+    background-color: #ffff; /* Ganti dengan warna latar belakang yang diinginkan */
+    color: #436f8a; /* Ganti dengan warna teks yang diinginkan */
+}
+.sidebar li.active p {
+    color: #436f8a;
+}
+.nav p {
+    font-weight: 600;
+    color: white;
+}
+
+.sidebar li.active i {
+    color: #436f8a;
+}
+
+.demo-icons ul {
+    padding-left: 0;
+}
+
+.demo-icons ul::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.demo-icons ul li {
+    width: 20%;
+    float: left;
+    padding: 16px 0;
+    text-align: center;
+    border-radius: 0.25em;
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
+    transition: background 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+}
+
+.demo-icons ul li:hover {
+    background: #f4f4f4;
+}
+
+.hero {
+    display: flex;
+    /* Adjust any other styles for the wrapper as needed */
+}
+
+.hero.hero-image-medium {
+    overflow: hidden; /* Prevent scrolling for the sidebar */
+    /* Add any other styles for the sidebar-wrapper as needed */
+}
+
+.hero img {
+    margin-top: 25px;
+    max-width: 200px;
+    overflow: hidden; /* Make sure the image doesn't exceed its container */
+    height: 200px;
+    bottom: 0;
+    margin-left: 25px;
+}
+.demo-icons ul p,
+.demo-icons ul em,
+.demo-icons ul input {
+    display: inline-block;
+    font-size: 1rem;
+    color: #999999;
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.demo-icons ul p {
+    padding: 20px 0 0;
+    font-size: 12px;
+    margin: 0;
+}
+
+.demo-icons ul p::selection,
+.demo-icons ul em::selection {
+    background: #608cee;
+    color: #efefef;
+}
+
+.demo-icons ul em {
+    font-size: 12px;
+}
+
+.demo-icons ul em::before {
+    content: "[";
+}
+
+.demo-icons ul em::after {
+    content: "]";
+}
+
+.demo-icons ul input {
+    text-align: center;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    display: none;
+}

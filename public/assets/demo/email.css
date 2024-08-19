@@ -1,0 +1,132 @@
+.background {
+    background-color: #4caf50; /* Warna latar hijau */
+    padding: 10px;
+    color: #ffffff; /* Warna teks putih */
+}
+body {
+    background-color: #4caf50; /* Warna latar belakang hijau untuk seluruh halaman */
+    margin: 0; /* Hapus margin bawaan dari body */
+    padding: 0; /* Hapus padding bawaan dari body */
+}
+
+.container {
+    background-color: #4caf50; /* Warna latar belakang krem */
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    width: 50%; /* Lebar gambar 100% */
+    height: auto; /* Tinggi gambar otomatis sesuai proporsi */
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.box {
+    max-width: 700px; /* Lebar maksimum kotak form */
+    margin: 0 auto; /* Pusatkan kotak form */
+}
+
+.form-box {
+    background-color: #ffffff; /* Warna latar belakang form */
+    padding: 20px;
+    border-radius: 10px; /* Border radius 10px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan pada form */
+    width: 700px;
+
+    /* Menyentuh bagian atas dan bawah halaman */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    /* Menyentuh bagian kanan halaman */
+    right: 0;
+    margin-right: 0px; /* Jarak dari kanan, sesuaikan sesuai kebutuhan */
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Warna label */
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Warna border input */
+    border-radius: 5px; /* Border radius 5px */
+}
+
+.form-check {
+    margin-top: 10px;
+}
+
+.form-check input {
+    margin-right: 5px;
+}
+
+.btn {
+    background-color: #007bff; /* Warna latar tombol */
+    color: #ffffff; /* Warna teks tombol */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px; /* Border radius 5px */
+    cursor: pointer;
+}
+.btn2 {
+    background-color: #ffffff; /* Warna latar tombol */
+    color: #000000; /* Warna teks tombol */
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Warna latar tombol saat hover */
+}
+h2 {
+    text-align: center;
+    font-weight: 600;
+    margin: 5;
+}
+p {
+    text-align: center;
+}
+.regis {
+    text-align: left;
+}
+label {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 150px;
+}
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    color: #ffffff; /* Warna teks link */
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Tambahan untuk Recaptcha */
+.g-recaptcha {
+    margin-top: 10px;
+}

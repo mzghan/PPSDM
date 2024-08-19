@@ -1,0 +1,384 @@
+.card-user {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 90px;
+    margin-left: 40px;
+    width: 300px;
+    height: 400px;
+}
+.logout {
+    margin: 8px;
+}
+.btn3 {
+    background-color: #bf3131; /* Warna hijau (success) */
+    color: #fff; /* Warna teks putih */
+    border-radius: 10px; /* Border radius 10px untuk sudut yang melengkung */
+    padding: 10px 20px; /* Padding untuk memberikan ruang di dalam tombol */
+    border: none; /* Menghilangkan border */
+    cursor: pointer; /* Menampilkan cursor tangan saat diarahkan ke tombol */
+}
+
+/* Style tambahan jika tombol dihover */
+.btn3:hover {
+    background-color: #822121; /* Warna hijau yang lebih gelap saat tombol dihover */
+}
+
+.btn3 a {
+    color: #fff;
+}
+
+/* LOGOUT */
+.btn10 {
+    background-color: #bf3131; /* Warna hijau (success) */
+    color: #fff; /* Warna teks putih */
+    border-radius: 10px; /* Border radius 10px untuk sudut yang melengkung */
+    padding: 10px 20px; /* Padding untuk memberikan ruang di dalam tombol */
+    border: none; /* Menghilangkan border */
+    cursor: pointer; /* Menampilkan cursor tangan saat diarahkan ke tombol */
+}
+
+/* Style tambahan jika tombol dihover */
+.btn10:hover {
+    background-color: #822121; /* Warna hijau yang lebih gelap saat tombol dihover */
+}
+
+ul.navbar-nav .btn10 a {
+    color: white;
+}
+/* LOGOUT */
+
+/* Kalender */
+.col h3 {
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.form-control {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+/* Button Unduh */
+.download-button {
+    background-color: transparent;
+    font-weight: bold;
+    color: #007bff;
+    border: 0px;
+}
+
+/* CSS Modal */
+.box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 18px;
+    border-radius: 15px;
+    width: auto; /* Sesuaikan lebar sesuai kebutuhan Anda */
+    margin-bottom: 10px;
+}
+.modal-title {
+    padding-left: 1px;
+}
+.box h2 {
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.box p {
+    text-align: justify;
+    margin: 0px;
+}
+.modal h5 {
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+}
+.btn1 {
+    background-color: #bf3131; /* Warna abu-abu */
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn2 {
+    background-color: #28a745; /* Warna hijau */
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* Styling for the avatar */
+.card-user .author img.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+/* Button Magang */
+
+/* Styling for the button */
+.card-user .update button {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.tim-row {
+    margin-bottom: 20px;
+}
+
+.tim-white-buttons {
+    background-color: #777777;
+}
+
+.typography-line {
+    padding-left: 25%;
+    margin-bottom: 35px;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.typography-line span {
+    bottom: 10px;
+    color: #c0c1c2;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    left: 0;
+    position: absolute;
+    width: 260px;
+    text-transform: none;
+}
+
+.tim-row {
+    padding-top: 60px;
+}
+
+.tim-row h3 {
+    margin-top: 0;
+}
+
+.offline-doc .page-header {
+    display: flex;
+    align-items: center;
+}
+
+.offline-doc .footer {
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    bottom: 0;
+    color: #fff;
+    z-index: 1;
+}
+
+@media all and (min-width: 992px) {
+    .sidebar .nav > li.active-pro {
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+    }
+}
+
+@media all and (max-width: 502px) {
+    .sidebar .nav > li.active-pro {
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+    }
+}
+
+.card.card-upgrade .card-category {
+    max-width: 530px;
+    margin: 0 auto;
+}
+
+/* Nucleo Style */
+
+.demo-iconshtml {
+    font-size: 62.5%;
+}
+
+.demo-icons body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    color: #333333;
+    background: white;
+}
+
+.demo-icons a {
+    color: #608cee;
+    text-decoration: none;
+}
+
+.demo-icons header {
+    text-align: center;
+    padding: 100px 0 0;
+}
+
+.demo-icons header h1 {
+    font-size: 2.8rem;
+}
+
+.demo-icons header p {
+    font-size: 1.4rem;
+    margin-top: 1em;
+}
+
+.demo-icons header a:hover {
+    text-decoration: underline;
+}
+
+.demo-icons .nc-icon {
+    font-size: 34px;
+}
+
+.demo-icons section h2 {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 0 0 1em 0.2em;
+    margin-bottom: 1rem;
+}
+.sidebar-wrapper {
+    background-color: #4ad57f;
+}
+.wrapper,
+.sidebar,
+.logo,
+.simple-text,
+.logo-medium {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.sidebar li {
+    background-color: #436f8a;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    right: 0;
+    margin-left: 20px;
+    transition: background-color 0.3s, color 0.3s; /* Efek transisi untuk animasi */
+}
+
+.sidebar li.active {
+    background-color: #ffff; /* Ganti dengan warna latar belakang yang diinginkan */
+    color: #436f8a; /* Ganti dengan warna teks yang diinginkan */
+}
+.sidebar li.active p {
+    color: #436f8a;
+}
+.nav p {
+    font-weight: 600;
+    color: white;
+}
+
+.sidebar li.active i {
+    color: #436f8a;
+}
+
+.demo-icons ul {
+    padding-left: 0;
+}
+
+.demo-icons ul::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.demo-icons ul li {
+    width: 20%;
+    float: left;
+    padding: 16px 0;
+    text-align: center;
+    border-radius: 0.25em;
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
+    transition: background 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+}
+
+.demo-icons ul li:hover {
+    background: #f4f4f4;
+}
+
+.hero {
+    display: flex;
+    /* Adjust any other styles for the wrapper as needed */
+}
+
+.hero.hero-image-medium {
+    overflow: hidden; /* Prevent scrolling for the sidebar */
+    /* Add any other styles for the sidebar-wrapper as needed */
+}
+
+.hero img {
+    margin-top: 25px;
+    max-width: 200px;
+    overflow: hidden; /* Make sure the image doesn't exceed its container */
+    height: 200px;
+    bottom: 0;
+    margin-left: 25px;
+}
+.demo-icons ul p,
+.demo-icons ul em,
+.demo-icons ul input {
+    display: inline-block;
+    font-size: 1rem;
+    color: #999999;
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.demo-icons ul p {
+    padding: 20px 0 0;
+    font-size: 12px;
+    margin: 0;
+}
+
+.demo-icons ul p::selection,
+.demo-icons ul em::selection {
+    background: #608cee;
+    color: #efefef;
+}
+
+.demo-icons ul em {
+    font-size: 12px;
+}
+
+.demo-icons ul em::before {
+    content: "[";
+}
+
+.demo-icons ul em::after {
+    content: "]";
+}
+
+.demo-icons ul input {
+    text-align: center;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    display: none;
+}

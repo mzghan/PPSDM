@@ -1,0 +1,391 @@
+/* Navbar */
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group .form-control {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.unduh {
+    background-color: #007bff; /* Warna biru */
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    padding-bottom: -50px;
+    border: none;
+    margin: 10px;
+}
+
+.unduh a {
+    font-weight: 400;
+    color: #ffffff;
+    margin: 2;
+    text-decoration: none;
+}
+
+.unduh:hover {
+    background-color: #67c6e3;
+}
+.mulai-mendaftar {
+    background-color: #4caf50; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 12px 20px; /* Padding tombol */
+    margin: 8px 0; /* Margin atas dan bawah */
+    border: none; /* Hapus border */
+    border-radius: 4px; /* Tambahkan border radius */
+    cursor: pointer; /* Ganti kursor saat hover */
+    font-size: 16px; /* Ukuran teks */
+}
+
+/* Efek hover */
+.mulai-mendaftar:hover {
+    background-color: #45a049;
+}
+
+.logout-btn {
+    display: inline-block;
+    padding: 10px 20px; /* Sesuaikan padding sesuai kebutuhan Anda */
+    background-color: #4ad57f; /* Warna hijau */
+    border-radius: 10px; /* Border radius 20 */
+    margin-top: 12px;
+    color: #ffffff; /* Warna teks putih */
+    text-decoration: none; /* Hapus garis bawah */
+    transition: background-color 0.3s; /* Efek transisi untuk hover */
+}
+
+.logout-btn:hover {
+    background-color: #3fae6b; /* Warna hijau yang sedikit lebih gelap saat hover */
+}
+
+.terimaajuan-btn,
+.lolos-btn,
+.terimaajuanW-btn,
+.lolosW-btn,
+.terimaajuanK-btn,
+.lolosK-btn {
+    background-color: #28a745; /* Warna hijau */
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn-show-modal,
+.btn-show-modal1,
+.btn-show-modal2 {
+    background-color: #007bff; /* Warna biru */
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn5,
+.btn6 {
+    background-color: transparent;
+    color: #000000;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn5 a,
+.btn6 a {
+    color: inherit; /* Mengambil warna teks dari orang tuanya */
+    text-decoration: none;
+}
+
+.btn5:hover,
+.btn6:hover {
+    background-color: #f0f0f0; /* Warna latar belakang saat dihover */
+}
+
+.navbar-brand img {
+    width: 190px;
+    height: 60px;
+}
+/* Close Navbar */
+
+/* Posisi */
+.posisi,
+.card-body {
+    width: 100%;
+}
+.cardii {
+    width: 70rem; /* 33.33% untuk 3 kolom dengan 15px padding */
+    height: 140px;
+    background-color: white;
+    margin: 10px 15px 20px 0; /* Sesuaikan margin sesuai kebutuhan */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 0.1px solid #000;
+    margin-left: 9.8rem;
+}
+
+.col-md-3 {
+    margin-right: 10px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.image p {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0 20px 20px;
+    color: red;
+}
+
+.text p {
+    font-size: 20px;
+    color: black;
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    width: 1570px;
+    height: 100px;
+    margin: 20px 0px 0px 20px;
+    text-align: left;
+}
+.text h4 {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    margin-top: -70px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/* Container */
+.details {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.duration-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.duration-container .level {
+    color: red;
+    left: 0;
+    margin-left: -20px;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #f4f2ff;
+    padding: 5px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.development,
+.lihat {
+    padding-top: 5px;
+}
+
+.status .development1 {
+    color: #4f6f52;
+    font-weight: bold;
+}
+
+.status .development2 {
+    color: #fdb827;
+    font-weight: bold;
+    border: #fdb827;
+}
+
+.status .development3 {
+    color: #df2e38;
+    font-weight: bold;
+}
+
+.box .tertolak {
+    color: #df2e38;
+    font-weight: bold;
+}
+
+.status .lihat {
+    margin-left: auto;
+    color: green;
+    margin-right: 10px;
+}
+
+.lihat {
+    border: none;
+    background-color: #f4f2ff;
+    font-weight: bold;
+}
+/* Close Posisi */
+
+/* Start CSS Model */
+.box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 18px;
+    width: auto;
+    margin-bottom: 10px;
+}
+.modal-header {
+    background-color: #528740;
+    color: #fff;
+}
+
+.klasifikasi {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.klasifikasi .durasi {
+    margin-left: 10px;
+}
+
+.klasifikasi .level {
+    color: red;
+    margin-left: 10px;
+}
+
+.modal-title {
+    padding-left: 30px;
+}
+.box h2 {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.box h3 {
+    color: #528740;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.box h4 {
+    color: #333;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.box p {
+    text-align: justify;
+    margin: 0;
+}
+.box p a {
+    color: #28a745;
+}
+.box .jadwal {
+    color: #df2e38;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.box .tgl {
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.box .img-fluid {
+    width: 30px;
+    height: 25px;
+}
+.modal h5 {
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+}
+
+.img-fluid {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.change {
+    float: left;
+}
+.announce img {
+    width: 250px;
+    height: 175px;
+    margin: 0 auto;
+    display: flex;
+}
+.announce p {
+    text-align: center;
+}
+.gagal-btn {
+    background-color: #bf3131; /* Warna abu-abu */
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+.btn1 {
+    background-color: #bf3131; /* Warna abu-abu */
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+.btn2 {
+    background-color: #28a745; /* Warna hijau */
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+.btnya {
+    background-color: #bf3131; /* Warna abu-abu */
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+.btntidak {
+    background-color: #ccc; /* Warna hijau */
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn2 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.btn2 a:hover {
+    text-decoration: none;
+}
+/* End CSS Model */

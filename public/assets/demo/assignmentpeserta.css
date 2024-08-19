@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.body {
+    display: flex;
+}
+
+/* Navbar */
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group .form-control {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.submitK-btn {
+    display: inline-block;
+    padding: 10px 20px; /* Sesuaikan padding sesuai kebutuhan Anda */
+    background-color: #4ad57f; /* Warna hijau */
+    border-radius: 5px; /* Border radius 20 */
+    color: #ffffff; /* Warna teks putih */
+    text-decoration: none; /* Hapus garis bawah */
+    transition: background-color 0.3s; /* Efek transisi untuk hover */
+}
+
+.submitK-btn:hover {
+    background-color: #3fae6b;
+}
+
+.btn5,
+.btn6 {
+    background-color: transparent;
+    color: #000000;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn5 a,
+.btn6 a,
+.btn7 a {
+    color: inherit; /* Mengambil warna teks dari orang tuanya */
+    text-decoration: none;
+}
+
+.btn5:hover,
+.btn6:hover,
+.btn7:hover {
+    background-color: #f0f0f0; /* Warna latar belakang saat dihover */
+}
+
+.navbar-brand img {
+    width: 190px;
+    height: 60px;
+}
+
+/* dropdown navbar */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    background-color: white;
+    position: absolute;
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
+/* Close Navbar Dropdown */
+/* Close Navbar */
+
+/* Tombol Back */
+.back {
+    background-color: transparent;
+    border: none;
+    float: left;
+}
+
+.back:hover {
+    cursor: pointer;
+}
+/* Close */
+
+.container h2 {
+    text-align: center;
+    margin: 30px;
+    font-family: "Inria Sans";
+    font-size: xx-large;
+    font-weight: bold;
+}
+/* Assignment */
+.akhir {
+    margin-top: 70px;
+}
+h3 {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.download-button {
+    background-color: transparent;
+    border: none;
+    color: #007bff; /* Warna biru, sesuaikan dengan warna yang Anda inginkan */
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0; /* Menghilangkan padding bawaan */
+}
+.btn1,
+.btn2 {
+    float: right;
+}
+.btn1 {
+    width: 150px;
+    background-color: #ccc;
+    /*Warnaabu-abu*/
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px;
+    font-weight: bold;
+}
+.btn1 a {
+    color: #000000;
+    text-decoration: none;
+}
+.btn1:hover {
+    background-color: #a9a9a9;
+}
+.btn2 {
+    width: 150px;
+    background-color: #28a745; /* Warna hijau */
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px;
+    font-weight: bold;
+}
+.btn2:hover {
+    background-color: #125c13;
+}
+/* Close Assignments CSS */

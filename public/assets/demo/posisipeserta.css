@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Tombol Back */
+.back {
+    background-color: transparent;
+    border: none;
+    float: left;
+}
+
+.back:hover {
+    cursor: pointer;
+}
+/* Close */
+
+/* Navbar */
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group .form-control {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.btn5,
+.btn6 {
+    background-color: transparent;
+    color: #000000;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn5 a,
+.btn6 a {
+    color: inherit; /* Mengambil warna teks dari orang tuanya */
+    text-decoration: none;
+}
+
+.btn5:hover,
+.btn6:hover {
+    background-color: #f0f0f0; /* Warna latar belakang saat dihover */
+}
+
+.navbar-brand img {
+    width: 190px;
+    height: 60px;
+}
+/* Close Navbar */
+
+.posisi {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.posisi h1 {
+    margin-top: 3rem;
+    font-family: "Inria Sans";
+    font-weight: 600;
+    text-align: center;
+}
+
+.row {
+    justify-content: center;
+}
+
+.cardii {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    margin: 10px 25px 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 0.1px solid #000;
+    padding-bottom: 215px;
+}
+.lihatlowongan {
+    background-color: #007bff; /* Warna biru */
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    padding-bottom: -50px;
+    border: none;
+}
+.lihatlowongan a {
+    font-weight: bold;
+}
+.lihatlowongan:hover {
+    background-color: #67c6e3;
+}
+
+.col-md-3 a {
+    text-decoration: none; /* Menghilangkan garis bawah */
+    color: inherit; /* Mengambil warna teks dari warisan */
+}
+
+.col-md-3 a:hover {
+    text-decoration: none; /* Tetap tidak menampilkan garis bawah saat tombol dihover */
+}
+
+.col-md-3 {
+    margin-right: 10px;
+}
+
+.image p {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0 20px 20px;
+    color: red;
+}
+
+.text h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    text-align: left;
+    font-weight: 600;
+}
+
+.text p {
+    margin-top: -12px;
+}
+
+.text h4 {
+    font-size: 18px;
+    color: black;
+    margin-top: -30px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.cardii h4 {
+    margin-top: 0px;
+}
